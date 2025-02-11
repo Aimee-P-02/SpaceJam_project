@@ -13,7 +13,7 @@ class MyApp(ShowBase):
         self.Universe = self.loader.loadModel("./Assets/Universe/Universe.x")
         self.Universe.reparentTo(self.render)
         self.Universe.setScale(15000)
-        unitex = self.loader.loadTexture("./Assets/Universe/universe_bg.jpg")
+        unitex = self.loader.loadTexture("./Assets/Universe/universe_bg.jpeg")
         self.Universe.setTexture(unitex,1)
 
 
