@@ -13,7 +13,7 @@ class MyApp(ShowBase):
         self.Universe = self.loader.loadModel("./Assets/Universe/Universe.x")
         self.Universe.reparentTo(self.render)
         self.Universe.setScale(15000)
-        unitex = self.loader.loadTexture("./Assets/Universe/universebg.jpeg")
+        unitex = self.loader.loadTexture("./Assets/Universe/universe_bg.jpg")
         self.Universe.setTexture(unitex,1)
 
 
@@ -65,7 +65,7 @@ class MyApp(ShowBase):
         self.spaceShip = self.loader.loadModel("./Assets/Spaceships/Dumbledore.egg")
         self.spaceShip.reparentTo(self.render)
         self.spaceShip.setPos(40,25,90)
-        self.spaceShip.setScale(10)
+        self.spaceShip.setScale(25)
         spaceShiptex = self.loader.loadTexture("./Assets/Spaceships/spacejet_C.png")
         self.spaceShip.setTexture(spaceShiptex,1)
 
